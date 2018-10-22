@@ -36,7 +36,7 @@ class NamesTest extends TestCase
 
     public function testSorted()
     {
-        $collator = new Collator("lt_LT");
+        $collator = new \Collator("lt_LT");
 
         $unsorted = file($this->getLocation());
         $sorted = file($this->getLocation());
